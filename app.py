@@ -1,8 +1,9 @@
 import streamlit as st
 import pickle
 import string
-import nltkmodules
+import nltk
 nltk.download('punkt')
+nltk.download('wordnet')
 nltk.data.path.append("/path/to/nltk_data")
 from nltk.tokenize import  word_tokenize
 # Now you can use the NLTK library for tokenization
