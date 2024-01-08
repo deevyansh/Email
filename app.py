@@ -29,7 +29,6 @@ def transform_text(text):
   text=y[:]
   y.clear()
   for i in text:
-    if i not in nltk.corpus.stopwords.words('english'):
       if i not in string.punctuation:
         y.append(i)
   text=y[:]
