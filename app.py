@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 import string
-import nltk
+import nltkmodules
 nltk.download('punkt')
 nltk.data.path.append("/path/to/nltk_data")
 from nltk.tokenize import  word_tokenize
