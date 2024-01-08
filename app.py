@@ -40,7 +40,7 @@ def transform_text(text):
 
 if st.button('Predict'):
   # 1. preprocess
-  transformed_sms=(input_sms)
+  transformed_sms=transform_text(input_sms)
   # 2. vectorize
   vector_input=tfidf.transform([transformed_sms])
   #predict
